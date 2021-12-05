@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Murecho", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  background-image: #00c9ff;
+  background-image: -webkit-linear-gradient(to right, #92fe9d, #00c9ff);
+  background-image: linear-gradient(to right, #92fe9d, #00c9ff);
+
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2rem;
+  border: 4px solid rgb(35, 240, 199);
+  border-radius: 80px;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: rgb(35, 240, 199);
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 4px solid rgb(125, 205, 228);
+  border-radius: 100%;
+}
+
+.game-over {
+  background-color: rgb(216, 195, 195);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(202, 65, 65);
+}
+
+.green {
+  background-color: rgb(70, 163, 70);
+}
+
+.blue {
+  background-color: rgb(61, 61, 199);
+}
+
+.yellow {
+  background-color: rgb(202, 202, 95);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
